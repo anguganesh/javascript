@@ -1,0 +1,24 @@
+console.log("Hello Typescript");
+let name = "Angu";
+console.log(name);
+let rollNumber = 68;
+console.log(rollNumber);
+let isLogged = true;
+let isLoggedIn = false;
+let test = "test";
+console.log(test);
+let userDetails = { name: "Angu Ganesh", qualification: "MCA" };
+let userName = userDetails?.name;
+let qualification = userDetails?.qualification;
+//let notExist = userDetails.notExist;
+console.log(userName);
+console.log(qualification);
+//console.log(notExist);
+// Arrow Function
+let result = (name) => name.toUpperCase();
+console.log("Result is : ", result("Ganesh"));
+let arrays = new Array("Dhinesh", "Ganesh");
+console.log(arrays);
+let capsArrayDetails = arrays.map(eachValue => eachValue.toUpperCase());
+console.log(capsArrayDetails);
+export {};
