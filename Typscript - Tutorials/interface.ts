@@ -2,7 +2,7 @@ interface studentInfo {
     readonly departmentName : string
     studentName : string,
     id : number,
-    character(): string,
+    character(behaviour?: string): string,
     IQ() : number,
     location ?: string
    // character : (param : number) => string
@@ -34,7 +34,21 @@ console.log(student_info_1.character());
 console.log(student_info_1.IQ());
 console.log(student_info_1.studentName);
 
+let student_info_2: studentInfo = {
+    departmentName : "CA",
+    studentName : "Dhinesh",
+    id : 100,
+    character : function(charDetails: string) {
+        return charDetails;
+    },
+    IQ : function() {
+        return 100;
+    },
+    location : "CHN"
+}
 
 
 
+console.log(student_info_2.character("Good"));
+console.log(student_info_2.IQ());
 
