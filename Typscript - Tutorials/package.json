@@ -1,6 +1,16 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "type": "module", 
-  "dependencies": {}
+  "type": "module",
+  "description": "",
+  "main": "enum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "live-server": "^1.2.2"
+  }
 }
