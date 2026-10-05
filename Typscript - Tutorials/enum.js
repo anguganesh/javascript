@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const SeatAllotement_2 = {
     AISLE: "AISLE",
     MIDDLE: 0,
@@ -6,8 +7,4 @@ const SeatAllotement_2 = {
 };
 console.log(SeatAllotement_2.AISLE);
 console.log(SeatAllotement_2["MIDDLE"]);
-const child_2 = {
-    FATHER: "father",
-    MOTHER: "mother"
-};
-console.log(child_2.FATHER);
+//# sourceMappingURL=enum.js.map
