@@ -49,8 +49,7 @@ class Youtube implements Story, TakesPhoto {
     
 
     createStory(): void {
-        console.log("Story Created");
-            
+        console.log("Story Created");         
     }
 }
 
