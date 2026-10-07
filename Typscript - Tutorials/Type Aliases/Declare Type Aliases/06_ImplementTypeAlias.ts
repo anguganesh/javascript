@@ -17,4 +17,3 @@ class Employee implements Person {
 
 let employee_object: Employee = new Employee("Ganesh");
 employee_object.greet();
-
