@@ -18,7 +18,7 @@ class UserDetails {
 
 class SubUser extends UserDetails {
 
-    public modifyData() {
+    public modifyData(): void {
         this.username_details = "Modify Data"
     }
 }
@@ -28,6 +28,8 @@ console.log(sub_user.getUserNameDetails);
 
 sub_user.modifyData();
 console.log(sub_user["username_details"]);
+
+
 
 
 

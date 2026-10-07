@@ -1,4 +1,11 @@
 
+type tupleObjectTypes = [string, number]
+
+let tupleData : tupleObjectTypes = ["dhinesh",10];
+let tupleData_2 : tupleObjectTypes = ["ganesh",68];
+console.log(tupleData[0],tupleData[1]);
+console.log(tupleData_2);
+
 let tuples : [string, number];
 tuples = ["Angu", 10];
 console.log(tuples);
