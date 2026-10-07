@@ -9,11 +9,12 @@ class Employee implements Person {
   constructor(name: string) {
     this.name = name;
   }
-
-  greet(): void {
+  
+  public greet(): void {
     console.log("Hello,", this.name);
   }
 }
 
 let employee_object: Employee = new Employee("Ganesh");
 employee_object.greet();
+
