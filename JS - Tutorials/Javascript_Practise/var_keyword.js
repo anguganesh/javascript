@@ -2,8 +2,6 @@
 // var keyword is the old way to declare variable
 // scope : functional / local and global
 
-const { sub } = require("date-fns")
-
 // 1. Able to access variable only If it is Global Scope
 // 2. NOT able to access functional / Local scope variable from Global scope Level (outside the function)
 
