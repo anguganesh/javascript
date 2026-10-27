@@ -1,15 +1,19 @@
 /**
  * Multiple Ways we can declare function
- * 1. Function Declaration
- * 2. Function Expression
- * 3. Arrow Function
- * 4. Function Constructor
- * 5. Immediate Invoked Function Expression
- * 6. Generator Function
- * 7. Anonymous Function
- * 8. Higher Order Function
- * 9. Recursive Function
  * 
+ * 1. Function Declaration
+ * 2. Anonymous Function - can be used in below forms
+ *      i) Function Expression
+ *     ii) Callback function
+ *    iii) IIFE
+ * 3. Arrow Function - can be used in below forms
+ *      i) Function Expression
+ *     ii) Callback function
+ *    iii) IIFE
+ * 4. Function Constructor
+ * 5. Generator Function 
+ * 6. Higher Order Function
+ * 7. Recursive Function 
  *  */
 
 function add(a, b) {
